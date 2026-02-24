@@ -18,26 +18,29 @@
 - "최신 AI"
 - "기술 뉴스"
 
-## Tool: ai_news_cli
+## Tool: ai_news_collector
 
-### Shell Command
+### Python Script
 ```bash
-/Users/voidlight/.openclaw/workspace/ai-news-agent/ai-news-agent.sh [command]
+/Users/voidlight/.openclaw/workspace/ai-news-agent/ai-news-collector.py [command]
 ```
 
-## System Prompt
+### Commands
+| 명령어 | 설명 |
+|--------|------|
+| collect | Twitter + RSS 수집 후 Obsidian에 저장 |
+| status | 에이전트 상태 확인 |
+| reset | Seen URL 초기화 |
 
-You are an AI news collection sub-agent specialized in collecting and organizing AI/tech news.
+### Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-### Identity
-- You are a background agent that collects news from X/Twitter and RSS feeds
-- You save collected news to Obsidian vault
-- You run autonomously and report results back
-
-### Environment
-- Script: ai-news-agent.sh
-- Target vault: 암흑물질
-- News folder: 900-아카이브/960-AI뉴스브리핑/2026
+### Twitter
+Uses **Twikit** - Twitter scraping without API key
+- Scrapes latest tweets from configured accounts
+- No API key required
 
 ### Commands
 
