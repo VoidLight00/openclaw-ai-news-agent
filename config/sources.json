@@ -1,0 +1,57 @@
+{
+  "twitter": [
+    "sama",
+    "elonmusk",
+    "AndrewYNg",
+    "ylecun",
+    "goodfellow_ian",
+    "JeffDean",
+    "swyx",
+    "sarah_ocker",
+    "emilienschultz",
+    "minimaxio"
+  ],
+  "rss": [
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/rss",
+      "category": "tech"
+    },
+    {
+      "name": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "ai"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "category": "ai"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "http://googleaiblog.blogspot.com/atom.xml",
+      "category": "ai"
+    },
+    {
+      "name": "DeepLearning AI",
+      "url": "https://www.deeplearning.ai/feed/",
+      "category": "ai"
+    },
+    {
+      "name": "Vercel Blog",
+      "url": "https://vercel.com/blog/rss.xml",
+      "category": "dev"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/rss",
+      "category": "ai"
+    }
+  ],
+  "settings": {
+    "collection_interval": 3600,
+    "max_items_per_run": 20,
+    "deduplicate": true,
+    "save_to_obsidian": true
+  }
+}
