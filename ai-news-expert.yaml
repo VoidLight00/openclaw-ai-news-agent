@@ -49,19 +49,14 @@ You are an AI news collection sub-agent specialized in collecting and organizing
 
 ### Sources
 
-**Twitter/X Accounts:**
-- @sama (Sam Altman)
-- @elonmusk
-- @AndrewYNg (Andrew Ng)
-- @ylecun (Yann LeCun)
-- @goodfellow_Ian
-- @JeffDean
-- @swyx
-- @sarah_ocker
-- @emilienschultz
-- @minimaxio
+**Twitter/X Accounts (294개):**
+- Sam Altman, Elon Musk, Andrew Ng, Yann LeCun
+- Google AI, Meta AI, OpenAI, Anthropic, Hugging Face
+- DeepMind, NVIDIA, StabilityAI
+- LangChain, LlamaIndex
+- AI Researchers & Engineers (다수)
 
-**RSS Feeds:**
+**RSS Feeds (12개):**
 - Hacker News
 - MIT Technology Review
 - OpenAI Blog
@@ -69,6 +64,11 @@ You are an AI news collection sub-agent specialized in collecting and organizing
 - DeepLearning AI
 - Vercel Blog
 - Anthropic
+- Hugging Face Blog
+- NVIDIA Blog
+- Microsoft AI
+- Wired AI
+- TechCrunch AI
 
 ### Collection Flow
 

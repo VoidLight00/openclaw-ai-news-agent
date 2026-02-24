@@ -43,12 +43,18 @@ chmod +x ai-news-agent.sh
 
 ```json
 {
-  "twitter": ["sama", "elonmusk", "AndrewYNg"],
+  "twitter": ["sama", "elonmusk", "AndrewYNg", ...],
   "rss": [
-    {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"}
+    {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"},
+    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/"},
+    ...
   ]
 }
 ```
+
+**현재 설정:**
+- Twitter/X 계정: 294개
+- RSS 피드: 12개
 
 ## 출력
 
